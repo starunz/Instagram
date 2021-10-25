@@ -71,7 +71,7 @@ a {
     display: none;
 }
 
-.conteudo {
+.container {
     width: 935px;
     margin: 88px auto 0 auto;
     background-color: #FAFAFA;
@@ -271,32 +271,32 @@ a {
     right: calc( (100% - 935px) / 2);
 }
 
-.sidebar > .usuario {
+.sidebar > .user {
     display: flex;
     align-items: center;
 }
 
-.usuario img{
+.user img{
     width: 56px;
     height: 56px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.sugestao img {
+.sugestion img {
     width: 32px;
     height: 32px;
     border-radius: 50%;
 }
 
-.sidebar > .usuario .texto {
+.sidebar > .user .text {
     display: flex;
     flex-direction: column;
     margin-left: 14px;
     font-weight: 300;
 }
 
-.sidebar > .sugestoes .titulo {
+.sidebar > .sugestions .title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -304,7 +304,7 @@ a {
     cursor: pointer;
 }
 
-.sidebar .sugestoes .sugestao {
+.sidebar .sugestions .sugestion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -313,29 +313,29 @@ a {
     margin-bottom: 16px;
 }
 
-.sidebar .sugestoes .sugestao .usuario {
+.sidebar .sugestions .sugestion .user {
     display: flex;
 }
 
-.sidebar .sugestoes img{
+.sidebar .sugestions img{
     width: 32px;
     height: 32px;
 }
 
-.sidebar .sugestoes .seguir {
+.sidebar .sugestions .seguir {
     color: #139EF2;
     font-weight: 500;
     font-size: 12px;
 }
 
-.sidebar .sugestoes .sugestao .usuario .texto {
+.sidebar .sugestions .sugestion .user .text {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.sidebar .sugestoes .sugestao .usuario .texto :last-child {
+.sidebar .sugestions .sugestion .user .text :last-child {
     color: #8E8E8E;
     font-weight: 300;
     font-size: 13px;
@@ -355,7 +355,7 @@ a {
     margin-top: 18px;
 }
 
-.texto {
+.text {
     cursor: pointer;
 }
 
@@ -363,7 +363,7 @@ p {
     cursor: pointer;
 }
 
-.titulo {
+.title {
     font-size: 12px;
 }
 
