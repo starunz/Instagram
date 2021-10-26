@@ -60,6 +60,7 @@ a {
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     text-align: center;
+    outline: 0;
 }
 
 .botoes-topo ion-icon {
